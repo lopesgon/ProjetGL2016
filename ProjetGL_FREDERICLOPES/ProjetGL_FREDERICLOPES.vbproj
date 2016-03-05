@@ -77,23 +77,42 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmSplash.Designer.vb">
-      <DependentUpon>frmSplash.vb</DependentUpon>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include=".Designer.vb">
+      <DependentUpon>FrmNouvelleAdresse.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmSplash.vb">
+    <Compile Include="FrmListeClients.Designer.vb">
+      <DependentUpon>FrmListeClients.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListeClients.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTB.Designer.vb">
-      <DependentUpon>frmTB.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmTB.vb">
+    <Compile Include="FrmNouvelleAdresse.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain.vb">
+    <Compile Include="FrmSplash.Designer.vb">
+      <DependentUpon>FrmSplash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSplash.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain.Designer.vb">
-      <DependentUpon>frmMain.vb</DependentUpon>
+    <Compile Include="FrmMain.Designer.vb">
+      <DependentUpon>FrmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTypeClient.Designer.vb">
+      <DependentUpon>FrmTypeClient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTypeClient.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainClass.vb" />
@@ -114,17 +133,26 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmMain.fr-CH.resx">
-      <DependentUpon>frmMain.vb</DependentUpon>
+    <EmbeddedResource Include="FrmListeClients.resx">
+      <DependentUpon>FrmListeClients.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMain.resx">
-      <DependentUpon>frmMain.vb</DependentUpon>
+    <EmbeddedResource Include="FrmNouvelleAdresse.resx">
+      <DependentUpon>FrmNouvelleAdresse.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSplash.resx">
-      <DependentUpon>frmSplash.vb</DependentUpon>
+    <EmbeddedResource Include="FrmLogin.fr-CH.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmTB.resx">
-      <DependentUpon>frmTB.vb</DependentUpon>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSplash.resx">
+      <DependentUpon>FrmSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTypeClient.resx">
+      <DependentUpon>FrmTypeClient.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

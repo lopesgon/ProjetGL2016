@@ -1,3 +1,3 @@
-﻿Public Class frmSplash
+﻿Public Class FrmSplash
 
 End Class

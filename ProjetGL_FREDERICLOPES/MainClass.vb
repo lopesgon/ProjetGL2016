@@ -1,5 +1,5 @@
 ﻿Public Class MainClass
-    Private fmLogin As frmMain
+    Private fmLogin As FrmLogin
 
     Public Shared Sub Main()
 

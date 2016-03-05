@@ -1,29 +1,22 @@
-﻿Public Class frmMain
-    Private fmTB As frmTB
+﻿Public Class FrmMain
 
-    Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
-        If tbLogin.Text = "admin" And tbPassword.Text = "pass" Then
-            Me.Hide()
-            frmTB.ShowDialog()
+    Private Sub msiCoobâtirQuitter_Click(sender As Object, e As EventArgs) Handles msiCoobâtirQuitter.Click
+        Dim res = MsgBox(
+            "Vous êtes sur le point de quitter l'exécution du programme, 
+            voulez-vous vraiment quitter COOBÂTIR ?",
+            MsgBoxStyle.YesNo + MsgBoxStyle.DefaultButton2, "Quitter l'application")
+        If res = MsgBoxResult.Yes Then
             Me.Close()
-        Else
-            MsgBox("Désolé, le nom d'utilisateur ou le mot de passe est incorrect",
-                   MsgBoxStyle.Critical, "Information")
-            tbLogin.SelectAll()
-            tbLogin.Focus()
         End If
     End Sub
 
-    Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
-        Close()
-    End Sub
+    Private Sub FrmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.Hide()
+        Dim fm As FrmLogin = New FrmLogin()
+        Dim dialRes As DialogResult = fm.ShowDialog
+        If dialRes = DialogResult.Cancel Then
+            Me.Close()
+        End If
 
-    Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-        fmTB = New frmTB()
-    End Sub
-
-    Private Sub selectionnerTout(sender As Object, e As EventArgs) Handles tbLogin.Enter, tbPassword.Enter
-        sender.SelectAll()
     End Sub
 End Class
