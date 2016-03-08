@@ -17,3 +17,5 @@ C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FRE
 C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\obj\Debug\ProjetGL_FREDERICLOPES.FrmNouvelleAdresse.resources
 C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\obj\Debug\ProjetGL_FREDERICLOPES.FrmTypeClient.resources
 C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\obj\Debug\ProjetGL_FREDERICLOPES.FrmListeClients.resources
+C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\obj\Debug\ProjetGL_FREDERICLOPES.FrmNouvPersPhys.resources
+C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\obj\Debug\ProjetGL_FREDERICLOPES.FrmNouvPersMorale.resources

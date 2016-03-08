@@ -54,6 +54,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
@@ -77,6 +78,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adresse.vb" />
     <Compile Include="ApplicationEvents.vb" />
     <Compile Include=".Designer.vb">
       <DependentUpon>FrmNouvelleAdresse.vb</DependentUpon>
@@ -88,6 +90,18 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmNouvelleAdresse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNouvPersMorale.Designer.vb">
+      <DependentUpon>FrmNouvPersMorale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNouvPersMorale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNouvPersPhys.Designer.vb">
+      <DependentUpon>FrmNouvPersPhys.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNouvPersPhys.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmSplash.Designer.vb">
@@ -116,6 +130,7 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainClass.vb" />
+    <Compile Include="Morale.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -131,6 +146,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Personne.vb" />
+    <Compile Include="Physique.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FrmListeClients.resx">
@@ -144,6 +161,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNouvPersMorale.resx">
+      <DependentUpon>FrmNouvPersMorale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNouvPersPhys.resx">
+      <DependentUpon>FrmNouvPersPhys.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSplash.resx">
       <DependentUpon>FrmSplash.vb</DependentUpon>
@@ -176,6 +199,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo.ico" />
+    <None Include="Resources\logoflou.png" />
+    <None Include="Resources\cropped-logo-coobatir-hd.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
