@@ -1,0 +1,14 @@
+C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\bin\Debug\ProjetGL_FREDERICLOPES.exe.config
+C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\bin\Debug\ProjetGL_FREDERICLOPES.exe
+C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\bin\Debug\ProjetGL_FREDERICLOPES.pdb
+C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\bin\Debug\ProjetGL_FREDERICLOPES.xml
+C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\obj\Debug\ProjetGL_FREDERICLOPES.vbprojResolveAssemblyReference.cache
+C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\obj\Debug\ProjetGL_FREDERICLOPES.frmMain.resources
+C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\obj\Debug\ProjetGL_FREDERICLOPES.Resources.resources
+C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\obj\Debug\ProjetGL_FREDERICLOPES.vbproj.GenerateResource.Cache
+C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\obj\Debug\ProjetGL_FREDERICLOPES.exe
+C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\obj\Debug\ProjetGL_FREDERICLOPES.xml
+C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\obj\Debug\ProjetGL_FREDERICLOPES.pdb
+C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\obj\Debug\ProjetGL_FREDERICLOPES.frmSplash.resources
+C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\obj\Debug\ProjetGL_FREDERICLOPES.frmLogin.resources
+C:\Users\Frédéric\Google Drive\HEG (Sync)\624-2 - Génie Logiciel\ProjetGL_FREDERICLOPES\ProjetGL_FREDERICLOPES\obj\Debug\ProjetGL_FREDERICLOPES.Form1.resources
